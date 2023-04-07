@@ -1,0 +1,106 @@
+.background{
+    height: 100%;
+    width: 100%;
+    background-color: #310b7d;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 500px;
+    height: 500px;
+    border-radius: 50px;
+    background-color: rgb(251, 251, 251);
+    box-shadow: rgba(0, 0, 0, #3e54ac) 0px,5px, 15px;
+    padding: 60px;
+    padding-top: 15px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    padding-bottom: 80px;
+}
+
+.hello{
+    display:flex;
+    flex-direction: column;
+    padding: 5px;
+    margin-right:0px;
+    width:200px;
+}
+
+.hey{
+    padding: 5px;
+    margin-right: 20x0px;
+    display: flex;
+    padding-right: 30px;
+}   
+
+.but{
+    display: flex;
+    justify-content: flex-end;
+    height: 28px;
+    width: 27px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 450px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.title{
+    display: inline-block;
+    text-align: center;
+}
+
+.nest{
+    font-family:'lucida bright';
+    font-weight: bolder;
+    font-size: 50px;
+    color:rgb(66, 113, 199);
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.acc{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:bold;
+    font-size: 30px;
+    margin-top: 2px;
+}
+
+.body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin: 3px;
+    height: 100px;
+}
+
+.account{
+    background-color:rgb(151, 109, 241);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    padding: 5px;
+    margin: 10px;
+    height: 40px;
+}
+
+.sign{
+    padding:5px;
+    margin: 10px;
+    background-color:rgb(81, 174, 151);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
